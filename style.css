@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#outer{
+    height: 75%;
+    width: 75%;
+    background-color: white;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+html,body{
+    background-color: #e07a5f;
+    height: 100%;
+}
+#inner{
+    height: 100px;
+    background-color: #f2e9e4;
+}
+a{
+    text-transform: capitalize;
+    margin: 23px 23px 23px 23px;
+    font-size: 18px;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+#ritik{
+    margin-left: 100px;
+    margin-right: 480px;
+}
+#personal1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 60px;
+}
+#personal2{
+    margin-left: 100px;
+    
+    font-size: 60px;
+}
+#personal3{
+    margin-left: 100px;
+   
+    font-size: 60px;
+}
+#photo{
+    margin-left: 300px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-image: url("ritik.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bio{
+    display: flex;
+}
+#personal{
+    display: inline;
+    background-color: #f2cc8f;
+}
+#symbol{
+    height: 20px;
+    width: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
